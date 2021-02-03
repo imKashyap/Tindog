@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 6%;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.download-button{
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0%;
+}
+
+.navbar-brand{
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+h1{
+    
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+.features-box{
+    background-color: #fff;
+    padding: 5%;
+    position: relative;
+}
+
+.features-icon{
+    color:#ef8172;
+    padding: 1.5rem;
+}
+
+.features-icon:hover{
+    color:#ff4c68;
+}
+
+
+
+.single-feature{
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo{
+    padding: 1.5rem;
+}
+
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .title-image{
+        height: 70%;
+        padding-top: 16px;
+        position:static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+
+#footer{
+    padding: 2%;
+    text-align: center;
+}
+
+.contact-icon{
+    padding: 1rem;
+}
